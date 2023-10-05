@@ -23,11 +23,12 @@
         </div>
         <div id="buttonss">
             <button class="button1" onclick="removeTask('${task.task}')">remove this task</button>  
-            <button class="button2" onclick="changeStatus('${task.task}')" >Change status</button>     
+            <button class="button2" onclick="changeStatus('${task.task}', this)" >Change status</button>     
         </div>
-        <div class="checkmark">
-            <input type="checkbox" id="myCheck" onclick="Checkmark()">
+        <div>
+            <input type="datetime-local" id="date"/>
         </div>
+
     </div>
     <div>
         <button class="button" onclick="confirmDelete()">Delete All</button>
