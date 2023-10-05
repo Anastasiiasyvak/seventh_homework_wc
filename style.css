@@ -84,3 +84,16 @@ body {
     font-size: 18px;
 
 }
+
+.button3{
+    padding:10px;
+    border:none;
+    background-color:rgb(137, 222, 255);
+    color:rgb(163, 58, 233);
+    border-radius:1000px;
+    width:15%;
+    margin: 20px;
+    text-align: center;
+    font-family: Acme;
+    font-size: 18px;
+}

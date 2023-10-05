@@ -16,22 +16,10 @@
         <p class="My_list_name">My to-do list:</p>
         <div id="taskList" class="task-list">
         </div>
-        <div class="added-task" id="addedTask">
-            <p class="task"><span id="Titletask"></span></p>
-        </div>
-        <div>
-        </div>
-        <div id="buttonss">
-            <button class="button1" onclick="removeTask('${task.task}')">remove this task</button>  
-            <button class="button2" onclick="changeStatus('${task.task}', this)" >Change status</button>     
-        </div>
-        <div>
-            <input type="datetime-local" id="date"/>
-        </div>
-
     </div>
     <div>
         <button class="button" onclick="confirmDelete()">Delete All</button>
+        <button class="button" onclick="delete_task_done()">Delete the tasks done</button>
     </div>
 </body>
 </html>
